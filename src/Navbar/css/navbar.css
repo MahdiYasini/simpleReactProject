@@ -1,0 +1,81 @@
+.navbar {
+  position: fixed;
+  padding-top: 1%;
+  background-color: transparent;
+  width: 100%;
+  padding-right: 10%;
+  font-weight: bold;
+}
+
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding-left: 0;
+  padding-right: 10px;
+  display: flex;
+  text-decoration: none;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+li a:hover {
+  animation: swing 1s ease;
+  animation-iteration-count: 1;
+  transition: border-radius 1s linear;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: #6ca1a1;
+}
+
+.logo {
+  padding-left: 8%;
+  flex-grow: 1;
+  display: flex;
+  align-self: flex-end;
+}
+
+.logo img {
+  width: 3rem;
+}
+
+a.homeButton {
+  color: #10c9c3;
+}

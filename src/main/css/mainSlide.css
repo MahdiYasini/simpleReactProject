@@ -1,0 +1,65 @@
+#mainSlide {
+  background-image: url("../images/background.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.card {
+  padding: 0 18px;
+  text-align: center;
+  background-color: transparent;
+  width: 29vw;
+  height: 21vw;
+}
+
+.cardArticle {
+  margin-bottom: 4%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.cardPassage {
+  font-size: 18px;
+  text-align: left;
+  color: #696969;
+}
+
+.cardButton {
+  border-radius: 5%;
+  border: none;
+  color: white;
+  font-family: Gelasio;
+  background-color: #10c9c3;
+  padding: 1vw 3vh;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  transition: padding 2s;
+
+
+
+
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  /* transform: scale(1.1); */
+  transition: box-shadow 500ms;
+
+}
+.cardButton:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  background: #6ca1a1;
+
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.cardButton:left {
+    padding: 20vh;
+  }
+
