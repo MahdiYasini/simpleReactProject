@@ -1,0 +1,42 @@
+#thirdSlide {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: khaki;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .thirdSlideTopDiv {
+    height: 25vh;
+    width: 100vw;
+    background-color: #10c9c3;
+    display: flex;
+  }
+
+.thirdSlideTopWorkState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  width: 25%;
+
+}
+
+.workState  {
+  width: 15vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.workPassage{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
+.workIcons {
+  height: 5vh;
+  margin: 4%;
+}

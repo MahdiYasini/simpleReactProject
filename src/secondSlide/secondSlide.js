@@ -4,7 +4,7 @@ import signature from './images/signature.png'
 const mainSlide = () => {
     return (
         <div >
-            <div className="secondSlide">
+            <div id="secondSlide">
                 <div className="topDiv">
                     <div  id="aboutUs">
                         <p className = "aboutUSArticle">About Us</p>
