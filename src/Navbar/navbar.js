@@ -1,8 +1,6 @@
 import React from 'react';
 import './css/navbar.css';
 import MainSlide from '../main/mainSlide'
-import SecondSlide from '../secondSlide/secondSlide'
-import ThirdSlide from '../thirdSlide/thirdSlide'
 import logo from './images/icon.png';
 const navbar = () => {
     return (
@@ -10,12 +8,12 @@ const navbar = () => {
             <ul>
                 <li className="logo" ><img src={logo} alt="main logo"/></li>
                 <li><a component={MainSlide} className = "homeButton" href="#mainSlide">HOME</a></li>
-                <li><a component={SecondSlide} href="#secondSlide">ABOUT</a></li>
-                <li><a component={ThirdSlide} href="#thirdSlide">WORK</a></li>
-                <li><a href="#">PROCESS</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">TESTIMONIALS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a  href="#secondSlide">ABOUT</a></li>
+                <li><a  href="#thirdSlide">WORK</a></li>
+                <li><a  href="#fourthSlide">PROCESS</a></li>
+                <li><a  href="#fifthSlide">SERVICES</a></li>
+                <li><a  href="#sixthSlide">TESTIMONIALS</a></li>
+                <li><a href="#seventhSlide">CONTACT</a></li>
             </ul>
         </div>
     );

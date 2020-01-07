@@ -34,11 +34,9 @@ class mainSlide extends Component {
                 {this.state.products.map((product) => {
                     return <div className="carImageDiv">
                         <img src={product.imageSrc} alt={product.alt}></img>
-                        <div class="overlay">
-                            {/* <h2>Check This <span>Out!</span></h2> */}
-                            <a href="#" class="icon" title="User Profile">
-                                <i class="fa fa-user fa-3x"></i>
-                                <img src= {Eye} alt="eye"></img>
+                        <div className="overlay">
+                            <a href="#thirdSlide" className="icon" title="User Profile">
+                                <img src= {Eye}  alt="eye"></img>
                             </a>
                         </div>
                     </div>

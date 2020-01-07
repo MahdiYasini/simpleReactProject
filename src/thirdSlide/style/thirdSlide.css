@@ -88,28 +88,15 @@
 .carImageDiv:hover .overlay {
   opacity: 1;
 }
-.carImageDiv:hover img {
+.carImageDiv:hover > img {
   -webkit-filter: blur(2px);
-  filter: blur(1.0rem);
+  filter: blur(1rem);
 }
-
 
 .overlay img {
-  /* position: inherit;
-   */
-   /* display: inline-block;
-    */
-    z-index: 999;
+  width: 5vw;
+  height: 10vh;
 }
-
-
-
-
-
-
-
-
-
 
 .buttonThirdSlideState {
   height: 9vh;
@@ -125,7 +112,3 @@
   font-weight: bold;
   color: grey;
 }
-
-
-
-
