@@ -60,10 +60,6 @@
   height: 100%;
 }
 
-/* .carImageDiv img:hover {
-  filter:  blur(1.0rem);
-} */
-
 .overlay {
   transition: 0.3s all;
   border-radius: 3px;
@@ -81,7 +77,6 @@
 }
 
 .carImageDiv .overlay h2 {
-  /* padding-top: 20%; */
   font-family: "Droid Serif", serif;
 }
 

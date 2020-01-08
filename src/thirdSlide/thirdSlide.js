@@ -14,7 +14,7 @@ import BmwX1 from './images/x1.jpg';
 import VolvoXC90 from './images/xc90.jpg';
 import Eye from './images/eye.png'
 
-class mainSlide extends Component {
+class thirdSlide extends Component {
     state = {
         products: [
             { imageSrc: TeslaModelX, alt: 'TeslaModelX' },
@@ -36,7 +36,7 @@ class mainSlide extends Component {
                         <img src={product.imageSrc} alt={product.alt}></img>
                         <div className="overlay">
                             <a href="#thirdSlide" className="icon" title="User Profile">
-                                <img src= {Eye}  alt="eye"></img>
+                                <img src={Eye} alt="eye"></img>
                             </a>
                         </div>
                     </div>
@@ -81,4 +81,5 @@ class mainSlide extends Component {
         );
     }
 };
-export default mainSlide;
+
+export default thirdSlide;
