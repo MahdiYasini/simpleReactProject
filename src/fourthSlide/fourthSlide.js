@@ -13,8 +13,8 @@ class mainSlide extends Component {
                 </div>
                 <div className="fourthSlideVideo">
                     <video controls >
-                        <source src= {Video508} type="video/mp4" />
-                            Your browser does not support HTML5 video.
+                        <source src={Video508} type="video/mp4" />
+                        Your browser does not support HTML5 video.
                     </video>
                 </div>
             </div>
