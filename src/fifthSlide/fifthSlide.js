@@ -8,12 +8,9 @@ import Diamond from './images/diamond.png';
 import Magic from './images/magic.png';
 import Paint from './images/paint.png';
 import Smartphone from './images/smartphone.png';
-
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 class fifthSlide extends Component {
     slideContents = () => {
         let contents = []

@@ -37,7 +37,6 @@
 }
 
 .servicesState img {
-  /* filter: grayscale(10); */
   width: 11%;
   height: 5vh;
   margin: 5%;
@@ -65,7 +64,7 @@
   padding-left: 44% !important;
 }
 
-.slideContent{
+.slideContent {
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
