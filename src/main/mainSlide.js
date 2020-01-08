@@ -2,7 +2,6 @@ import React from 'react';
 import './css/mainSlide.css';
 const mainSlide = () => {
     return (
-
         <div >
             <div id="mainSlide">
                 <div className="card">

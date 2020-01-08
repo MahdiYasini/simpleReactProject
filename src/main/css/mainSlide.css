@@ -41,25 +41,17 @@
   display: inline-block;
   float: left;
   transition: padding 2s;
-
-
-
-
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  /* transform: scale(1.1); */
   transition: box-shadow 500ms;
-
 }
+
 .cardButton:hover {
   transform: scale(1.1);
   transition: 1s;
   background: #6ca1a1;
-
   box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
-
 }
 
 .cardButton:left {
-    padding: 20vh;
-  }
-
+  padding: 20vh;
+}
