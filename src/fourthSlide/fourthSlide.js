@@ -12,7 +12,7 @@ class mainSlide extends Component {
                     <p>Was years it seasons was there from he in them together over that, third sixth gathered female creeping bearing behold years.</p>
                 </div>
                 <div className="fourthSlideVideo">
-                    <video width="400" controls>
+                    <video controls >
                         <source src= {Video508} type="video/mp4" />
                             Your browser does not support HTML5 video.
                     </video>

@@ -39,7 +39,7 @@ class seventhSlide extends Component {
                             <input type="text" placeholder="Your Title" name="text" className="titleInput" required />
                             <textarea placeholder="Your Comment" rows="10" cols="58" name="comment" form="usrform">
                             </textarea>
-                            <button type="submit" class="orderWorkFormButton">SEND MESSAGE</button>
+                            <button type="submit" className="orderWorkFormButton">SEND MESSAGE</button>
                         </div>
                     </form>
                 </div>
