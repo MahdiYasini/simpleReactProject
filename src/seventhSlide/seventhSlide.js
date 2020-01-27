@@ -9,6 +9,16 @@ class seventhSlide extends Component {
             "Facebook", "Instagram", "Twitter", "Dribble"
         ]
     }
+
+    informationChangeHandler = (event) => {
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+        this.setState({
+          [name]: value.trim()
+        });
+    }
+
     render() {
         let moreInfo = (
             <div className="footerInfo moreInfo">
@@ -33,11 +43,11 @@ class seventhSlide extends Component {
                             <h2>Need a Project?</h2>
                             <p>Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
                             <div className="nameAndEmail">
-                                <input type="text" placeholder="Your Name" name="text" required />
-                                <input type="text" placeholder="Your Email" name="email" required />
+                                <input type="text" placeholder="Your Name" name="username" onChange = {this.informationChangeHandler} />
+                                <input type="text" placeholder="Your Email" name="email" onChange = {this.informationChangeHandler} />
                             </div>
-                            <input type="text" placeholder="Your Title" name="text" className="titleInput" required />
-                            <textarea placeholder="Your Comment" rows="10" cols="58" name="comment" form="usrform">
+                            <input type="text" placeholder="Your Title" name="title" className="titleInput" onChange = {this.informationChangeHandler} />
+                            <textarea placeholder="Your Comment" rows="10" cols="58" name="comment" form="usrform" onChange = {this.informationChangeHandler}>
                             </textarea>
                             <button type="submit" className="orderWorkFormButton">SEND MESSAGE</button>
                         </div>
