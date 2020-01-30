@@ -26,7 +26,9 @@ class fifthSlide extends Component {
             </div>
         );
         return (
-            <div> {cars}</div>
+            <React.Fragment>
+                {cars}
+            </React.Fragment>
         );
     };
 };
